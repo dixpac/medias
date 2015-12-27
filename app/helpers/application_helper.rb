@@ -1,5 +1,5 @@
 module ApplicationHelper
   def title
-    "Medis"
+    "Medias"
   end
 end

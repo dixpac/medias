@@ -25,6 +25,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'devise'
 
+gem 'redis', '~> 3.0.1'
+gem 'hiredis', '~> 0.6'
+
 gem 'foundation-rails'
 
 # Use ActiveModel has_secure_password

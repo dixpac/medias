@@ -6,6 +6,7 @@ class MoviesController < ApplicationController
   end
 
   def show
+    @cart_action = @movie.cart_action current_user.try :id
   end
 
   private
