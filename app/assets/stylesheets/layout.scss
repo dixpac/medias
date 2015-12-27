@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'gotham-rounded';
+  src: url(gotham-rounded-medium.otf);
+}
+
+body {
+  background-image: image-url("body_bg.png");
+  background-position: center;
+  color: #fff;
+}
+
+.title-area {
+  a { padding: 0 !important }
+  i {
+    font-size: 30px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.top-bar-section ul li { background: transparent  }
+.form-container {
+  padding: 3% 3%;
+  .switch > div {
+    position: relative;
+    top: -5px;
+  }
+}
